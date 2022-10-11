@@ -15,16 +15,16 @@
 6. Does the following command return anything?
 
         git diff --staged
-
+git diff does but --staged does not. It shows my modifications to the files.
 7. Add one of your changed files to the index
 
         git commit add <changed file>
 
 8. What do these commands show?
 
-        git diff
+        git diff 
         git diff --staged
-
+git diff shows the deleted line from my vegetables.txt while git diff --staged shows what has been added to my text file.
 9. Add the other changed file to the index
 
         git commit add <other changed file>
@@ -33,6 +33,9 @@
 
         git diff
         git diff --staged
+
+Git diff --staged shows additions to both files
+git diff does not show anything
 
 11. Commit the changes
 

@@ -24,6 +24,6 @@
         git log --oneline <commit_hash>
 
 7. How much of the commit hash do you need to specify? Hint, run `git help log`
-
+You can just specify the few (7) characters of your hash instead of typing out the whole hash.
 8. How can you show just the last three commit messages?
-
+You do this by typing git log --oneline -3

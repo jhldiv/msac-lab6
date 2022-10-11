@@ -18,3 +18,10 @@
 
         git status
 
+[jhl@truffle my_repository]$ git commit
+[master (root-commit) 429e49d] First Commit
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 fruits.txt
+[jhl@truffle my_repository]$ git status
+On branch master
+nothing to commit, working tree clean

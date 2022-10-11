@@ -35,9 +35,9 @@
         git status
 
 10. Which of the steps could be omitted?
-
+git status 
 11. Why might it be a bad idea to omit them?
-
+The git status lists which files are staged, unstaged, and untracked. So omitting it could potentially keep the user from monitoring changes in their files.
 12. Repeat the above steps to add a new file with the name `vegetables.txt`
 
 13. Create a subdirectory named `equipment` and a new file named `appliances.txt` in that subdirectory
@@ -45,3 +45,12 @@
 14. Repeat the above steps to commit the new file and directory
 
 15. Repeat the above steps 1-9, adding data to each of your files a few lines at a time, until you can easily do the steps without referring to the steps. You may want to add vegetables to the vegetables file, and appliances to the appliances - or vice versa
+jhl@truffle my_repository]$ git commit -m "Second Commit"
+[master 9589897] Second Commit
+ 2 files changed, 7 insertions(+)
+ create mode 100644 vegetables.txt
+[jhl@truffle my_repository]$ git status
+On branch master
+nothing to commit, working tree clean
+[jhl@truffle my_repository]$ ^C
+[jhl@truffle my_repository]$ 

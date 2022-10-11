@@ -25,7 +25,8 @@
 8. What type of object does the parent hash represent?
 
         git cat-file -t <hash>
-
+the parent hash represents the author, committer information, along with the commit message.
 9. Examine the contents of the parent and its tree
 
 10. Do the trees you looked at have any matching hashes listed?
+the matching hashes appear for author adn committer.
